@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Hugging Face / model caches
+.cache/
+huggingface/
+hf_cache/
+transformers_cache/
+
+# Training outputs
+outputs/
+checkpoints/
+logs/
+runs/
+
+# Google Colab / Drive
+content/
+drive/
+
+# Secrets
+.env
+*.token
+secrets.json
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
